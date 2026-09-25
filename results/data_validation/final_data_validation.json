@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "datasets": {
+    "amazon_reviews": {
+      "records": 701528,
+      "file": "data/processed/amazon/amazon_claims_agrvf.parquet"
+    },
+    "amazon_products": {
+      "records": 112590,
+      "file": "data/processed/amazon/amazon_products_agrvf.parquet"
+    },
+    "open_beauty_facts": {
+      "records": 64237,
+      "file": "data/processed/openbeautyfacts/openbeautyfacts_agrvf.parquet"
+    },
+    "fever": {
+      "records": 145449,
+      "file": "data/processed/fever/fever_train_agrvf.parquet"
+    },
+    "scifact_train": {
+      "records": 809,
+      "file": "data/processed/scifact/scifact_train_agrvf.parquet"
+    },
+    "scifact_dev": {
+      "records": 300,
+      "file": "data/processed/scifact/scifact_dev_agrvf.parquet"
+    },
+    "scifact_test": {
+      "records": 300,
+      "file": "data/processed/scifact/scifact_test_agrvf.parquet"
+    },
+    "scifact_corpus": {
+      "records": 5183,
+      "file": "data/processed/scifact/scifact_corpus_agrvf.parquet"
+    },
+    "averitec_claims": {
+      "records": 3568,
+      "file": "data/processed/averitec/averitec_claims_agrvf.parquet"
+    },
+    "averitec_evidence": {
+      "records": 9878,
+      "file": "data/processed/averitec/averitec_evidence_agrvf.parquet"
+    }
+  },
+  "quality_checks": {
+    "amazon_duplicate_product_ids": 0,
+    "amazon_missing_product_links": 0,
+    "amazon_duplicate_claim_ids": 0,
+    "fever_duplicate_codes": 0,
+    "scifact_train_duplicate_ids": 0,
+    "scifact_dev_duplicate_ids": 0,
+    "scifact_test_duplicate_ids": 0,
+    "scifact_corpus_duplicate_doc_ids": 0,
+    "averitec_duplicate_claim_ids": 0,
+    "averitec_duplicate_evidence_ids": 0,
+    "averitec_evidence_missing_claims": 0,
+    "averitec_missing_claim_text": 0,
+    "averitec_missing_evidence_text": 0
+  }
+}

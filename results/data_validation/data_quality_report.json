@@ -1,0 +1,38 @@
+{
+  "amazon": {
+    "duplicate_reviews_checked": true,
+    "duplicate_parent_asin_checked": true,
+    "missing_values_checked": true,
+    "rating_range_checked": true,
+    "empty_reviews_checked": true,
+    "short_reviews_checked": true,
+    "schema_checked": true
+  },
+  "openbeautyfacts": {
+    "duplicate_product_codes_checked": true,
+    "missing_values_checked": true,
+    "empty_product_names_checked": true,
+    "empty_ingredients_checked": true,
+    "schema_checked": true
+  },
+  "fever": {
+    "missing_values_checked": true,
+    "duplicate_claims_checked": true,
+    "label_distribution_checked": true,
+    "verifiable_distribution_checked": true,
+    "empty_claims_checked": true,
+    "schema_checked": true
+  },
+  "scifact": {
+    "train_validation_completed": true,
+    "dev_validation_completed": true,
+    "test_validation_completed": true,
+    "corpus_validation_completed": true,
+    "duplicate_ids_checked": true,
+    "duplicate_claims_checked": true,
+    "duplicate_titles_checked": true,
+    "cited_documents_checked": true,
+    "corpus_linkage_checked": true,
+    "schema_checked": true
+  }
+}

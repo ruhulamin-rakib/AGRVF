@@ -1,0 +1,12 @@
+{
+  "amazon_reviews": 701528,
+  "amazon_products": 112590,
+  "open_beauty_facts": 64237,
+  "fever_processed": 145449,
+  "scifact_train": 809,
+  "scifact_dev": 300,
+  "scifact_test": 300,
+  "scifact_corpus": 5183,
+  "averitec_claims": 3568,
+  "averitec_evidence": 9878
+}
